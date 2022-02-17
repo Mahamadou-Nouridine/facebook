@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(236,240,246);
+}
+#forgot{
+    font-size: 1vw;
+    opacity: 0.5;
+}
+header{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(57,90,151);
+}
+#entete{
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+    font-size: 1.1vw;
+    color: white;
+    align-items: center;
+}
+#entete input{
+    width: 10vw;
+}
+#input{
+    margin-top: 1.2vw;
+    
+}
+#input button
+{
+    background-color: rgb(67,103,178);
+    color: white;
+}
+#submit{
+    background-color: rgb(92,147,71);
+    width: 100px;
+    color: white;
+}
+#password{
+    margin-top: 1.17vw;
+}
+#facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+article{
+    display: flex;
+    align-items: center;
+    margin-top: 15vh;
+    width: 100%;
+    justify-content: space-around;
+}
+figure{
+    display: flex;
+    margin-top: 30px;
+    font-size: 2vw;
+
+}
+img{
+    width: 40px;
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 2vw;
+}
+form p{
+    margin-top: 20px;
+}
+#section1 p{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;;
+    
+}
+#section1{
+    width: 30%;
+}
+footer{
+    margin-top: 15px;
+    border-top: solid gray;
+}
+footer span{
+    color: blue;
+}
+#blue{
+    color: blue;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+@media screen and (max-width:500px) {
+    article{
+        display: flex;
+        align-items: center;
+        margin-top: 3vh;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    #section2{
+        width: 100%;
+        font-size: large;
+    }
+    #section1{
+        width: 100%;
+    }
+    figcaption{
+        margin-top: 30px;
+        font-size: medium;
+    }
+    
+}
+@media screen and (min-width:1200px) {
+    #section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        font-size: 20px;
+    }
+    figcaption{
+        margin-top: 30px;
+        font-size: medium;
+    }
+}
